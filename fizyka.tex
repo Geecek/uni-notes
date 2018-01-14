@@ -144,6 +144,298 @@
                 \Phi = \oint\nolimits_{} \vec{E}\cdotp\Delta S
             \end{equation}
             \textit{definicja użyteczna obliczeniowo}
-        
+            
+            \paragraph{Prawo Gaussa i prawo Coulomba} 
+            \
+
+            W przypadku ładunku
+            punktowego zamkniętego w sferycznej powierzchni
+            Gaussa wektor pola jest prostopadły do powierzchni.
+
+            \begin{equation}
+                \varepsilon_0 \cdotp \oint\nolimits_{} \vec{E} d\vec{S}
+                = \varepsilon_0 \cdotp \oint\nolimits_{} E \cdotp dS
+                = q_{wewnetrzne}    
+            \end{equation}
+
+            Po obliczeniu całki po powierzchni sferycznej:
+            \begin{equation}
+                \varepsilon_0 \cdotp E \cdotp 4\pi \cdotp r^2 = q
+                \Longrightarrow
+                E = \frac{q}{\varepsilon_0 \cdotp 4 \pi r^2}
+            \end{equation}
+
+            \paragraph{Potencjałem elektrycznym}
+            w dowolnym punkcie pola elektrycznego E nazywa się
+            stosunek pracy W wykonanej przez siłę elektryczną przy
+            przenoszeniu ładunku q z tego punktu do nieskończoności,
+            do wartości tego ładunku.
+
+            \begin{equation}
+                V = -\frac{W}{q}
+            \end{equation}
+
+            Pracę oblicza się całkując pole elektryczne po przesunięciu
+            \begin{equation}
+                W = q_0 \cdotp \oint\limits_{pocz}^{konc} {\vec{E}
+                d\vec{S}}
+                \Longrightarrow
+                V = -\oint\nolimits_{} \vec E d\vec S
+            \end{equation}
+
+            Przy założeniu pola jednorodnego:
+            \begin{equation}
+                E = - \frac{\Delta V}{\Delta s}
+            \end{equation}
+            
+            Bezwzględna wartość różnicy potencjałów oznaczana jest
+            jako U.
+
+            \
+            
+            Różnica potencjałów na okładkach kondensatora jest 
+            proporcjonalna do ładunku i dana jest wzorem:
+            \begin{equation}
+                q = C \cdotp U
+            \end{equation}
+            \
+            
+            C - pojemność kondensatora
+            
+            \
+            
+            Jednostką pojemności jest \textbf{Farad}
+
+            \
+            
+            $[F] = [\frac{C}{V}]$
+
+            Pojemność kondensatora płaskiego:
+            \begin{equation}
+                C = \frac{\varepsilon_0 \cdotp S}{d}
+            \end{equation}
+
+            \paragraph{Łączenie kondensatorów:}
+            \begin{itemize}
+                \item równolegle - na każdym kondensatorze występuje
+                taka sama różnica potencjałów.
+                \begin{equation}
+                    C_{calk} = \frac{q_c}{U} = \sum\limits_{i = 1}^n C_i
+                \end{equation}
+
+                \item szeregowo - na każdym z kondensatorów odkłada
+                się część różnicy potencjałów.
+                \begin{equation}
+                    \frac{1}{C_{calk}} =  \sum\limits_{i = 1}^n \frac{1}{C_i}
+                \end{equation}
+            \end{itemize}
+
+        \subsection{Prąd elektryczny}
+            \textbf{Prąd elektryczny} to uporządkowany ruch ładunków elektrycznych
+            \paragraph{Natężenie} to wielkość charakteryzująca przepływ prądu
+            zdefiniowana jako stosunek wartości ładunku elektrycznego
+            przepływającego przez wyznaczoną powierzchnię do czasu
+            przepływu ładunku.
+            \begin{equation}
+                I = \frac{dq}{dt}
+            \end{equation}
+
+            \
+
+            Natężenie prądu elektrycznego oznaczamy literą I w przypadku
+            prądu stałego, a literą i gdy dotyczy prądu zmiennego.
+
+            \
+
+            Umowny kierunek prądu: od bieguna dodatniego do ujemnego.
+
+            \
+
+            Prąd w pojedynczym obwodzie ma jedno natężenie na całej długości.
+
+            \
+            
+            \textbf{Rzeczywiście poruszające się ładunki elektryczne}
+            mogą posiadać kierunek ruchu niezgodny z umownym kierunkiem
+            prądu.
+
+            \paragraph{Przypadki: }
+            \begin{itemize}
+                \item W metalach nośnikami prądu są elektrony, a więc
+                kierunek ich dryfu jest dokładnie przeciwny do umownego
+                kierunku prądu
+                \item W elektrolitach nośnikami prądu są jony -
+                zarówno dodatnie, jak i ujemne. Jony poruszają się w
+                przeciwnych kierunkach, jednak prądy jakie są z nimi
+                związane dodają się, bo prąd jonów ujemnych jest
+                traktowany jako przeciwny do ich ruchu.
+                \item W połprzewodnikach nośnikami mogą być zarówno
+                elektrony ujemne jak i dodatnie dziury(braki elektronów).
+                Występuje sytuacja podobna do ruchu jonów - dziury tworzą
+                prąd zgodny z ich kierunkiem ruchu, prąd elektronowy jest
+                przeciwny do ruchu ładunków go tworzących.
+                \item Ładunki poruszające się w próżni też tworzą prąd elektryczny
+                na zasadzie strumienia np. wiązka elektronów w lampie kineskopowej
+                biegnie od działa elektronowego do ekranu. Tutaj też, z racji,
+                że elektrony są ujemne, prąd tej wiązki płynie od ekranu do
+                działa elektronowego.
+            \end{itemize}
+
+            \paragraph{I. Prawo Kirchoffa}
+            
+            \
+            
+            Suma natężeń prądów wpływających do węzła jest równa sumie
+            natężeń prądów wypływających z tego węzła.
+            
+            \
+            
+            \textit{Pierwsze prawo Kirchoffa jest nazywane również prawem węzła}
+            \paragraph{Opór elektryczny przewodnika} jest to spadek
+            energii nośników prądu na skutek kolizji zachodzących 
+            w strukturze przewodnika. Tworzona energia zamienia się
+            w ciepło, ale nie następuje zmiana ilości nośników.
+
+            \paragraph{Prawo Ohma}
+
+            \
+            
+            Stosunek napięcia na końcach przewodnika do natężenia
+            prądu przezeń płynącego jest określany mianem oporu
+            elektrycznego.
+
+            \begin{equation}
+                R = \frac{U}{I}
+            \end{equation}
+
+            Jednostką oporu elektrycznego jest Om - $[\Omega]$
+
+            \paragraph{Przewodnictwo elektryczne}
+
+            \
+            
+            Stosunek prądu płynącego przez przewodnik do napięcia
+            pomiędzy jego końcami jest stały. Wartość tego stosunku
+            to przewodnictwo elektryczne.
+
+            \begin{equation}
+                G = \frac{I}{U}
+            \end{equation}
+
+            Jednostką przewodnictwa elektrycznego jest Simens - [S]
+
+            \paragraph{Łączenie oporników:}
+            \begin{itemize}
+                \item szeregowo
+                \begin{equation}
+                    R_{z} = \sum\limits_{i = 1}^n R_i
+                \end{equation}
+
+                \item szeregowo
+                \begin{equation}
+                    \frac{1}{R_{z}} =  \sum\limits_{i = 1}^n \frac{1}{R_i}
+                \end{equation}
+            \end{itemize}
+            
+            \paragraph{II. Prawo Kirchoffa}
+            
+            \
+            
+            W obwodzie zamkniętym suma spadków napięć na wszystkich
+            odbiornikach prądu musi być równa sumie napięć na źródłach
+            napięcia.
+
+            \
+            
+
+            \textbf{Praca prądu elektrycznego:}
+
+            \begin{equation}
+                W = U \cdotp I \cdotp t
+            \end{equation}
+
+            \textbf{Moc prądu elektrycznego:}
+            
+            \begin{equation}
+                P = U \cdotp I = I^2 \cdotp R = \frac{U^2}{R}
+            \end{equation}
+
+            \paragraph{Półprzewodnik}
+            jest to materiał wykazujący w określonych warunkach
+            własności izolatora, a w innych właściwości przewodnika prądu.
+            Pod względem cemicznym półprzewodniki w zasadzie nie posiadają
+            wolnych elektronów ostatniej powłoki(dlatego są izolatorami),
+            ale w warunkach odmiennych, przy dostarczeniu ich atomom
+            dużej energii przez podgrzanie lub oświetlenie, pojawiają się
+            wolne elektrony, opór ciała spada i w rezultacie prąd elektryczny
+            może płynąć.
+
+            \paragraph{Dziura elektronowa}
+            to brak elektronu w pełnym paśmie walencyjnym.
+            Pochodzi stąd, iż gdy w paśmie walencyjnym brakuje pojedynczego
+            elektronu, występująca ,,dziura" zachowuje się jako dodatni
+            nośnik ładunku elektrycznego. 
+
+            \paragraph{Wiązanie kowalencyjne}
+            to rodzaj wiązania chemicznego. Istotą tego wiązania jest
+            istnienie par elektronów, które są wpółdzielone w porównywalnym
+            stopniu przez oba atomy tworzące to wiązanie.
+
+            \paragraph{Półprzewodnik samoistny}
+            to półprzewodnik, którego materiał jest idealnie czysty.
+            Koncentracja wolnych elektronów w półprzewodnikach jest równa
+            koncentracji dziur. Półprzewodniki samoistne mają mało par
+            dziura-elektron i dlatego ich opór właściwy jest duży.
+
+            \paragraph{Półprzewodnik domieszkowany}
+            Domieszkowanie polega na wprowadzeniu i aktywowaniu atomów
+            domieszek do struktury kryształu. Domieszki są atomami pierwiastków
+            niewchodzących w skład półprzewodnika samoistnego, ponieważ
+            w wiązaniach kowalencyjnych bierze udział ustalona liczba elektronów,
+            zamiana któregoś z atomów struktury na odpowiedni atom domieszki
+            powoduje wystąpienie nadmiaru lub niedoboru elektronów.
+
+
+            \
+            
+            \textbf{Domieszkowanie: }
+            \begin{itemize}
+                \item donorowe - Wprowadzenie domieszki dającej nadmiar
+                elektronów(w stosunku do półprzewodnika samoistnego)
+                powoduje powstanie półprzewodnika typu n, domieszka taka
+                zaś nazywana jest donorową(oddaje elektron).
+                W takim półprzewodniku powstaje dodatkowy poziom energetyczny
+                (poziom donorowy) położony w obszarze pasma wzbronionego niewiele
+                poniżej poziomu przewodnictwa, lub na takim samym paśmie przewodnictwa.
+                Nadmiar elektronów jest uwalniany do pasma przewodnictwa(prawie pustego
+                w przypadku półprzewodnika samoistnego) w postaci elektronów swobodnych
+                zdolnych do przewodzenia prądu. Mówimy wtedy o przewodnictwie
+                elektronowym lub przewodnictwie typu n.
+
+                \item akceptorowe - Wprowadzenie domieszki dającej niedobór
+                elektronów(w stosunku do półprzewodnika samoistnego) powoduje
+                powstanie półprzewodnika typu p, domieszka taka zaś nazywa się
+                domieszką akceptorową(przyjmuje elektron). W takim półprzewodniku
+                powstaje dodatkowy poziom energetyczny(poziom akceptorowy).
+                Poziomy takie wiążą elektrony znajdujące się na pasmie walencyjnym
+                (prawie zapełnionym w przypadku półprzewodników samoistnych),
+                powodując powstanie w nim wolnych miejsc(dziur elektronowych).
+                Zachowują się one jak swobodne cząstki o ładunktu dodatnim i są
+                zdolne do przewodzenia prądu. Mówimy o przewodnictwie dziurowym,
+                lub przewodnictwie typu p.
+            \end{itemize}
+
+            Dziury ze względu na swoją masę efektywną, zwykle większą
+            od masy efektywnej elektronów, mają mniejszą ruchliwość,
+            przez co rezystywność materiałów typu p jest z reguły większa
+            niż materiałów typu n mających ten sam poziom domieszkowania.
+
+            \paragraph{Masa efektywna}
+            to odpowienik masy dla ciał(cząstek) znajdujących się w środowisku
+            materialnym, z którym oddziałują. Stosując masę efektywną w równaniach
+            ruchu, automatycznie uwzględnia się obecność otaczających pól
+            bez potrzeby ich dokładnej analizy. Masa efektywna może być zarówno
+            mniejsza, jak i większa od masy spoczynkowej tego samego ciała
+            w próżni. Może być ujemna.
 
 \end{document}\maketitle
