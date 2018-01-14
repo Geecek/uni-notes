@@ -438,4 +438,176 @@
             mniejsza, jak i większa od masy spoczynkowej tego samego ciała
             w próżni. Może być ujemna.
 
+            \paragraph{Diody}
+
+            \
+            
+            Istotą działania większości diod jest przewodzenie prądu
+            w jednym kierunku i znaczne blokowanie jego przepływu
+            w drugim. Właściwości te wykorzystujemy do prostowania
+            napięcia przemiennego oraz demodulacji sygnałów w
+            odbiornikach radiowych. Wadą diod jest tzw. prąd wsteczny,
+            prąd upływu.
+
+            \paragraph{Tranzystor bipolarny}
+            półprzewodnikowy element elektroniczny, mający zdolność wzmacniania sygnału.
+            Zbudowany jest z trzech warstw półprzewodnika o różnym typie przewodnictwa.
+            Charakteryzuje się tym, że niewielki prąd płynący pomiędzy dwoma jesgo elektrodami
+            (nazywanymi \textit{bazą} i \textit{emiterem}) steruje większym prądem
+            płynącym między emiterem, a trzecią elektrodą(nazywaną \textit{kolektorem}).
+            Tranzystor bipolarny składa się z trzech warstw półprzewodnika
+            o różnym typie przewodnictwa(\textbf{p-n-p} lub \textbf{n-p-n}).
+
+            \
+            
+            Poszczególne warstwy noszą nazwy:
+            \begin{itemize}
+                \item emiter(E) - warstwa silnie domieszkowana
+                \item baza(B) - warstwa cienka i słabo domieszkowana
+                \item kolektor(C)
+            \end{itemize}
+
+            \
+
+            Tranzystor bipolarny składa się z dwóch złączy p-n:
+            \begin{itemize}
+                \item baza-emiter(złącze emitera)
+                \item baza-kolektor(złącze kolektora)
+            \end{itemize}
+
+            \paragraph{Tranzystor polowy}
+            Sterowanie prądu tranzystora polowegoodbywa się za pomocą pola
+            elektrycznego. Zasadniczą częścią tranzystora polowego jest krzyształ
+            odpowiednio domieszkowanego półprzewodnika z dwiema elektrodami:
+            \begin{itemize}
+                \item źródłem(S - odpowiednik emitera)
+                \item drenem(D - odpowiednik kolektora)
+            \end{itemize}
+
+            \
+            
+            Pomiędzy źródłem i drenem tworzy się tzw. kanał, którym płynie prąd.
+            Wzdłuż kanału zmieniona jest trzecia elektroda, zwana bramką(G - odpowiednik bazy).
+            Przyłożone do bramki napięcie wywołuje w krysztale dodatkowe pole elektryczne,
+            które wpływa na rozkład nośników prądu w kanale. Skutkiem tego jest zmiana
+            efektywnego przekroju kanału, co objawia się jako zmiana oporu pomiędzy drenem i źródłem.
+
+
+            \paragraph{Siła Lorentza} to siła jaka działa na cząstkę obdarzoną ładunkiem
+            elektrycznym, poruszającą się w polu elektromagnetycznym.
+            
+            \begin{equation}
+                \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})     
+            \end{equation}
+
+            \begin{itemize}
+                \item $\vec{E}$ - wektor natężenia
+                \item $\vec{B}$ - wektor pola magnetycznego
+            \end{itemize}
+
+            \paragraph{Prawo Amp\'ere'a}
+            Całka krzywoliniowa wektora indukcji magnetycznej, wytworzonego przez stały
+            prąd elektryczny w przewodniku wzdłuż linii zamkniętej otaczającej prąd, jest 
+            równa sumie algebraicznej natężeń prądów przepływających(strumień gęstości
+            prądu) przez dowolną powierzchnię objętą przez tę linię.
+
+            \begin{equation}
+                \oint\nolimits_{} \vec{B} d\vec{l} = \mu_0\cdotp I
+            \end{equation}
+            
+            \
+            
+            \textit{Dla prózni}
+
+            \begin{equation}
+                \oint\limits_{C} \vec{H} d\vec{l} = \int\nolimits_{} \vec{J}d\vec{a} = I
+            \end{equation}
+                        
+            \
+            
+            \textit{Dla dowolnego ośrodka}
+
+            \
+            
+            Gdzie:
+            \begin{itemize}
+                \item C - linia zamknięta
+                \item $\vec{H}$ - natężenie pola magnetycznego
+                \item $\vec{J}$ - gęstość prądu przepływającego przez element
+                $d\vec{a}$ powierzchni S, zamkniętej przez krzywą C
+            \end{itemize}
+
+            Równoważną formą prawa w postaci różniczkowej jest:
+            \begin{equation}
+                \nabla \times \vec{H} = \vec{J}
+            \end{equation}
+
+            Natężenie pola magnetycznego H może być wyrażone jako indukcja magnetyczna B:
+            \begin{equation}
+                \vec{B} = \mu \cdotp \vec{H}
+            \end{equation}
+
+            Indukcja magnetyczna dana jest wzorem:
+            \begin{equation}
+                \oint\limits_{C} Hdl = I
+            \end{equation}
+
+            Gdzie:
+            \begin{itemize}
+                \item H - natężenie pola magnetycznego
+                \item I - prąd przepływający przez dowolną powierzchnię
+                rozpiętą na zamkniętym konturze C
+            \end{itemize}
+
+            \paragraph{Prawo Faradaya}
+            W zamkniętym obwodzie znajdującym się w \textbf{zmiennym}
+            polu magnetycznym pojawia się siła elektromotoryczna
+            indukcji równa szybkości zmian strumienia indukcji pola magnetycznego
+            przechodzącego przez powierzchnię rozpiętą na tym obwodzie.
+
+            \begin{equation}
+                \varepsilon = -\frac{d\Phi_B}{dt}
+            \end{equation}
+
+            Gdzie:
+            \begin{itemize}
+                \item $\Phi_B$ - strumień indukcji magnetycznej
+            \end{itemize}
+
+            Jezeli w miejscu pętli umieści się zakmnięty przewodnik o oporze R,
+            wówczas w obwodzie tego przewodnika popłynie prąd o natężeniu:
+            \begin{equation}
+                I = \frac{U}{R} \Longrightarrow I = \frac{\varepsilon}{R} \Longrightarrow
+                I = \frac{\frac{d\Phi_B}{dt}}{R}
+            \end{equation}
+
+            \paragraph{Reguła Lenza}
+            Prąd indukcyjny(nazywany też prądem wtórnym) wzbudzony w przewodniu pod wpływem
+            zmiennego pola magnetycznego ma zawsze taki kierunek, że wytworzone wtórne
+            pole magnetyczne przeciwdziała przyczynie(czyli zmianie pierwotnego pola magnetycznego),
+            która go wywoła.
+
+            \
+            
+            Wnioski:
+            \begin{itemize}
+                \item Jeżeli zamknięta zwojnica porusza się względem magnesu to wokół zwojnicy
+                powstaje takie pole magnetyczne, które przeciwdziała temu ruchowi
+                \item Jeżeli natężenie pola magnetycznego pośrodku zwojnicy wzrasta, indukuje
+                to w niej pole i prąd elektryczny o takim kierunku, że wytwarzane przezeń wtórne
+                pole magnetyczne przeciwdziałać będzie dalszemu wzrostowi pierwotnemu pola.
+                \item Jeżeli natężenie pola magnetycznego pośrodku zwojnicy słabnie, indukuje to w
+                niej pole i prąd elektryczny o takim kierunku, że wytwarzane przezeń wtórne
+                pole magnetyczne podtrzymać będzie słabnące pole pierwotne
+                \item Jeżeli cząstka obdarzona ładunkiem elektrycznym porusza się w polu magnetycznym
+                o wzrastającym natężeniu, to ruch tej cząstki wywołuje wzrost natężenia pola magnetycznego
+                przed cząstką, a osłabienie za cząstką(przeciwdziałanie zmianie pola w miejscu, gdzie jest cząstka)
+                , a przy polu w ruchu słabnącym odwrotnie. Np. deformacja pola magnetycznego
+                Ziemii przez wiatr słoneczny.
+                \item Jeżeli cząstka obdarzona ładunkiem porusza się wzdłuż zakrzywionej linii pola
+                magnetycznego, to indukowane pole zmniejsza krzywiznę tej linii 
+            \end{itemize}
+
+
+
 \end{document}\maketitle
