@@ -8,11 +8,60 @@
 
 \begin{document}
     \maketitle
+    \section{Dynamika}
+        \subsection{Zasady dynamiki Newtona}
+            \paragraph{I. zasada dynamiki Newtona}
+                Jeżeli na ciało nie działają żadne siły, lub siły działające na nie się 
+                równoważą to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym
+                prostoliniowym.
+            \paragraph{II. zasada dynamiki Newtona}
+                Jeżeli na ciało działa niezrównoważona stała siła, to ciało porusza się 
+                ruchem przyspieszonym, z przyspieszeniem równym:
+                \begin{equation}
+                    \vec{a} = \frac{\vec{F}}{m}
+                \end{equation}
+            \paragraph{III. zasada dynamiki Newtona}
+                Jeżeli ciało A działa na ciało B siłą, to ciało B działa na ciało A siłą
+                o takiej samej wartości i kierunku, ale przeciwnym zwrocie.
     \section{Termodynamika}
         \subsection{Zerowa zasada termodynamiki}
-        Jeśli układy A i B mogące ze sobą wymieniać ciepło są ze sobą w równowadze 
-        termicznej, i to samo jest prawdą dla układów B i C, to układy A i C również 
-        są ze sobą w równowadze termicznej.
+            Jeśli układy A i B mogące ze sobą wymieniać ciepło są ze sobą w równowadze 
+            termicznej, i to samo jest prawdą dla układów B i C, to układy A i C również 
+            są ze sobą w równowadze termicznej.
+
+            \paragraph{Temperatura i ciepło}
+                \textbf{Temperatura} jest miarą energii termicznej ciała.
+                \textbf{Ciepło} jest to zmiana energii termicznej ciała.
+                Aby nastąpiła wymiana ciepła pomiędzy ciałem, a otoczenie musi wystąpić
+                różnica temperatur.
+
+                \
+                
+                Jednostka ciepła w układzie SI - Dżul $[J]$
+
+            \paragraph{Pojemność cieplna (C)} jest to zależność pomiędzy ciepłem(Q)
+                dostarczonym/odebranym do/od ciała, a jego zmianą temperatury.
+                \begin{equation}
+                    C = Q \cdotp \Delta T
+                \end{equation}
+
+            \paragraph{Pojemność cieplna} ciała jest proporcjonalna do jego masy
+                i parametru określającego pojemność cieplną zwanego ciepłem właściwym $c_w$.
+                \begin{equation}
+                    Q = c_w \cdotp m \cdotp \Delta T
+                \end{equation}
+
+            \paragraph{Ciepło przemiany} jest to ilość energii potrzebnej do zmiany stanu
+                skupienia ciała bez zmiany jego temperatury.
+
+                \
+                
+                Dla każdego ciała wyróżniamy ciepło:
+                \begin{itemize}
+                    \item topnienia
+                    \item parowania
+                \end{itemize}
+
         \subsection{Pierwsza zasada termodynamiki}
             Różnica pomiędzy ciepłem dostarczonym do układu, a pracą wykonaną przez ten 
             układ jest równa zmianie energii wewnętrznej układu.
@@ -38,7 +87,7 @@
                         Q = W = 0
                     \end{equation}
                 \end{itemize}
-        \newpage
+
         \subsection{Przewodnictwo cieplne}
             \begin{equation}
                 P = \frac{Q}{t} = k \cdotp S \cdotp \frac{\Delta T}{L}
@@ -54,7 +103,67 @@
                     \item L - długość przewodnika
                 \end{itemize}
 
-    \newpage
+            \paragraph{Opór cieplny}
+                jest wielkością wskazującą na zdolność do hamowania przepływu
+                ciepła.
+                \begin{equation}
+                    R = \frac{L}{k\cdotp S}
+                \end{equation}
+                Gdzie:
+                \begin{itemize}
+                    \item L - długość/grubość materiału
+                    \item S - pole powierzchni
+                \end{itemize}
+        \subsection{Kinetyczna teoria gazu}
+            \paragraph{Liczba Avogadra} to ilość atomów w jednym molu
+                $N_A = 6,02 \cdotp 10^{23} {mol}^{-1}$
+
+            \
+
+            Wszystkie gazy przy stałej temperaturze i stałym ciśnieniu
+            mają tą samą objętość.
+
+            \
+            
+            Gaz doskonały jest zbliżony do gazów jednoatomowych(szlachetnych)
+
+            \paragraph{Równanie gazu doskonałego}
+
+            \begin{equation}
+                p \cdotp V = n \cdotp R \cdotp T
+            \end{equation}
+
+            \
+            
+            Praca gazu przy stałej objętości
+            $v = const. $
+            $W = 0$
+
+            Praca gazu przy stałym ciśnieniu
+            $p = const. $
+            $W = p \cdotp \Delta V$
+        
+            \paragraph{Energia wewnętrzna gazu}
+            \begin{equation}
+                E_w = n \cdotp N_A \cdotp E_{k_{srednia}} = n \cdotp N_A \cdotp
+                \frac{3}{2} k \cdotp T = \frac{3}{2} \cdotp n \cdotp R \cdotp T
+            \end{equation}
+
+            \paragraph{Ciepło molowe gazu jednoatomowego}
+            \begin{equation}
+                C_v = \frac{3}{2} \cdotp R = 12,5 \frac{J}{mol \cdotp K}
+            \end{equation}
+
+            \paragraph{Entropia} to odpowiednik energii w przemianach nieodwracalnych,
+                entropia układu zamkniętego nigdy nie maleje, może tylko rosnąć,
+                lub być stała.
+        
+        \subsection{Druga zasada termodynamiki w ujęciu Clausiusa}
+            Nie istnieje proces termodynamiczny, którego jedynym wynikiem byłoby
+            pobranie ciepła ze zbiornika o temperaturze niższej i przekazanie go do
+            zbiornika o temperaturze wyższej.
+            (Nie istnieje perpetuum mobile drugiego rodzaju)
+
     \section{Elektrostatyka, elektrodynamika}
         \paragraph{Pole}
             to obszar w przestrzeni, w którym w każdym punkcie można
